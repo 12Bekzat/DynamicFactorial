@@ -1,0 +1,15 @@
+﻿<Window x:Class="DynamicFactorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DynamicFactorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBox x:Name="numbers" Text="Введите числа" Width="500" Height="50" Margin="0 150 0 0" FontSize="25"/>
+            <Button Content="Факториал" Height="50" Width="300" Click="ToCountFactorials" FontSize="25" Margin="0 30 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
